@@ -17,7 +17,6 @@ const wrongLettersOnHtml = document.getElementById("wrongLetters");
 let failedLetters = [];
 
 let enteredLetter = document.getElementById("letterInput");
-
 let guessedWord;
 
 const gameScore = document.getElementById("gameScore");
