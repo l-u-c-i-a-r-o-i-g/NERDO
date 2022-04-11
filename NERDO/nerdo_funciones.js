@@ -40,7 +40,7 @@ const changeBtnColorHard = () => {
   btnHard.disabled = true;
 };
 const adviceOfInputs = () => {
-  explanation.innerText = `⚠ TENER EN CUENTA ⚠\n>>>USAMOS ESPANGLISH... ALGUNAS PALABRAS ESTÁN EN INGLÉS(ING) Y OTRAS EN ESPAÑOL(ESP)\n>>> LOS ACENTOS DEBERÁS INGRESARLOS CUANDO SEA NECESARIO\n>>>15 SEGUNDOS PARA ADIVINAR CADA PALABRA, SI TARDAS MÁS SE TE DESCUENTAN 50 PUNTOS x_x\n>>>SI ELEGIS PASAR A OTRA PALABRA SE TE DESCUENTAN 50 PUNTOS x_x`;
+  explanation.innerText = `⚠ TENER EN CUENTA ⚠\n>>>USAMOS ESPANGLISH... ALGUNAS PALABRAS ESTÁN EN INGLÉS(ING) Y OTRAS EN ESPAÑOL(ESP)\n>>> LOS ACENTOS DEBERÁS INGRESARLOS CUANDO SEA NECESARIO\n>>>15 SEGUNDOS PARA ADIVINAR, SI TARDAS MÁS SE TE DESCUENTAN 50 PUNTOS x_x\n>>>SI ELEGIS PASAR A OTRA PALABRA SE TE DESCUENTAN 50 PUNTOS x_x`;
 };
 musicOnOff.onclick = () => {
   if (volumeOff.classList.contains("d-none")) {
@@ -119,7 +119,6 @@ const resetGame = () => {
 //*EL JUEGO:
 const checkHighScoreInStorage = () => {
   highestScore = JSON.parse(localStorage.getItem("HighestScore"));
-  console.log(highestScore);
   if (highestScore > 0) {
     highScore.innerText = `MEJOR PUNTAJE: ${highestScore}`;
   }
@@ -140,8 +139,6 @@ const shuffle = (array) => {
 const pickRandomWord = (array) => {
   let randomIndex = indexArray[0];
   randomWord = array[randomIndex];
-  console.log(randomIndex);
-  console.log(randomWord);
   return randomWord;
 };
 const hideRandomWord = (word) => {
