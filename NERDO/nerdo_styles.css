@@ -1,0 +1,116 @@
+@import url("http://fonts.cdnfonts.com/css/redriver");
+@import url("http://fonts.cdnfonts.com/css/gigantic-fs");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Gigantic FS", sans-serif;
+}
+
+body {
+  background-image: url(imgs/jsLogo.png);
+  background-size: 2rem;
+}
+
+.title {
+  font-family: "Redriver", sans-serif;
+  font-size: 3.8rem;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f7de1eec;
+  width: 50vw;
+  min-width: min-content;
+  margin-top: 4rem;
+
+  border-radius: 2rem;
+  border-color: black;
+  border-style: solid;
+}
+.container__content {
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  min-width: min-content;
+  height: auto;
+  min-height: min-content;
+}
+.explanation {
+  width: 60vw;
+  line-height: 2rem;
+}
+.marquee {
+  width: 30vh;
+  font-size: large;
+}
+.clueOnHtml {
+  background-color: black;
+  color: antiquewhite;
+  width: 80%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  line-height: 2rem;
+}
+.divMusicScore,
+.divBtnRestart {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5rem;
+  padding: 0.1rem;
+}
+.gameScore,
+.highScore {
+  background-color: rgba(246, 250, 215, 0.286);
+  color: black;
+  width: auto;
+  border-radius: 0.5rem;
+  font-size: smaller;
+  text-align: center;
+}
+.btn-volumen {
+  background: none;
+  border: none;
+}
+
+.btnLevel,
+.btnRestart {
+  font-size: x-small;
+  width: auto;
+  border-radius: 0.5rem;
+  border: transparent;
+  padding: 0.4rem;
+}
+.selectedLevel {
+  background-color: black;
+  color: antiquewhite;
+}
+
+.btn {
+  background: linear-gradient(145deg, #d8d7b2, #eff3b0);
+  border-radius: 0.5rem;
+  border: transparent;
+  padding: 0.5rem;
+  margin: 1rem;
+  width: auto;
+}
+.btn-ver-top5 {
+  background: linear-gradient(145deg, #d8beb2, #f3c5b0);
+  border-radius: 0.5rem;
+  border: transparent;
+  width: auto;
+}
+
+.btn-ocultar {
+  background: linear-gradient(145deg, #c7b2d8, #d3b0f3);
+  border-radius: 0.5rem;
+  border: transparent;
+  width: auto;
+}
+input {
+  border-radius: 0.5rem;
+  border: transparent;
+  padding: 1rem;
+  margin: 1rem;
+}

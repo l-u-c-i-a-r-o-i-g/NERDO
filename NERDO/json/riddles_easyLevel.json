@@ -1,0 +1,106 @@
+[
+  {
+    "name": "CONCATENACIÓN",
+    "clue": "Proceso de anexar una cadena al final de otra cadena",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "SCRIPT",
+    "clue": "Etiqueta con la cual podemos integrar código JavaScript al HTML",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "PROMPT",
+    "clue": "¿Qué instrucción utilizamos para capturar una entrada? ...() ",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "LOCAL",
+    "clue": "Cuando una variable se encuentra declarada entre las llaves ({}) de una función, ¿de qué tipo es?",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "LET",
+    "clue": "¿Con qué palabra reservada tengo que declarar una variable de alcance local que pueda ser reasignada?",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "STRING",
+    "clue": "Cadena de caracteres y texto en JavaScript",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "CONDICIONAL",
+    "clue": "La palabra reservada -if- la utilizamos para crear una estructura...",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "GLOBAL",
+    "clue": "La palabra reservada var es una variable de tipo... ",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "BOOLEANOS",
+    "clue": "Estos pueden tomar dos valores posibles, true o false, verdadero o falso ",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "VARIABLES",
+    "clue": "En ellas almacenamos diversos tipos de datos que utilizamos para programar",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "CONST",
+    "clue": "Recibe una única asignación al momento de su declaración impidiendo que su valor se modifique luego",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "CONSOLA",
+    "clue": "console.log() muestra el mensaje que pasemos como parámetro a la llamada en la...",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "FUNCIONES",
+    "clue": "Las usamos para agrupar instrucciones que realizan una tarea concreta",
+    "score": 100,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "FOR",
+    "clue": "Tipo de bucle que repite un bloque de código un número de veces específica ",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "WHILE",
+    "clue": "Tipo de bucle que repite un bloque de código mientras la condición evaluada sea verdadera",
+    "score": 100,
+    "lang": "(INGLÉS)"
+  }
+]

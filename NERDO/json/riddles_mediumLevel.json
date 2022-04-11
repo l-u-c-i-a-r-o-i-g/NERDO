@@ -1,0 +1,106 @@
+[
+  {
+    "name": "ACTUALIZACIÓN",
+    "clue": "Nuevo valor que se asigna después de cada repetición a las variables que controlan la repetición (dentro del ciclo 'for'",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "SWITCH",
+    "clue": "Estructura especialmente diseñada para manejar de forma sencilla múltiples condiciones sobre la misma variable",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "DECLARAR",
+    "clue": "Cuando definimos una función en el código se dice asi:",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "PARÁMETROS",
+    "clue": "Cuando enviamos a la función uno o más valores para ser empleados en sus operaciones, estamos hablando de los...",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "OBJETOS",
+    "clue": "Estructuras que podemos definir para agrupar datos bajo un mismo criterio, contienen propiedades y valores agrupados",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "SCOPE",
+    "clue": "Ámbito de una variable (en inglés)",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "INSTRUCCIONES",
+    "clue": "Las definimos dentro del bloque de la función {...} y serán interpretadas al momento de utilizar dicha función",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "ANÓNIMA",
+    "clue": "Una función que se define sin nombre",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "CONTINUE",
+    "clue": "¿Qué sentencia empleamos para saltar una iteración?",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "BREAK",
+    "clue": "¿Qué sentencia empleamos para interrumpir un ciclo?",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "OPERADORES",
+    "clue": "¿Qué son: == / >= / >= / === ?",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "ALGORITMO",
+    "clue": "Permite manipular datos mediante una secuencia organizada de pasos o procedimientos.",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "ANIDAR",
+    "clue": "Escribir una sentencia junto a una subsiguiente dentro de la misma estructura sintáctica",
+    "score": 200,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "RETURN",
+    "clue": "Palabra reservada para generar un valor de retorno al llamar una función",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "ARRAY",
+    "clue": "Puede ser una colección de números, strings, booleanos, objetos o hasta una lista de listas",
+    "score": 200,
+    "lang": "(INGLÉS)"
+  }
+]

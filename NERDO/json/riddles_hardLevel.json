@@ -1,0 +1,106 @@
+[
+  {
+    "name": "LITERAL",
+    "clue": "Cuando un objeto se define directamente entre llaves { } es un objeto...",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "THIS",
+    "clue": "Palabra clave y muy útil para asegurar que se emplean las propiedades del objeto actual",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "MÉTODOS",
+    "clue": "Son técnicamente funciones, sólo que se limitan a poder ser ejecutados solo desde el mismo objeto que los contiene",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "CLASES",
+    "clue": "Proveen una sintaxis mucho más clara y simple para crear objetos",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "CONSTRUCTOR",
+    "clue": "Método especial para crear e inicializar un objeto creado con una clase",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "TRUTHY",
+    "clue": "Valores convertibles a true",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "ÍNDICE",
+    "clue": "Determina la posiciónlos de los elementos dentro de un array",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "LENGTH",
+    "clue": "Propiedad length nos sirve para obtener la longitud de un Array",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "SHIFT",
+    "clue": "Método que permite quitar el primer elemento de un Array",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "SPLICE",
+    "clue": "Método que permite eliminar uno o varios elementos de un array en cualquier posición. Funciona con 2 parámetros",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "INCLUDES",
+    "clue": "Método que permite saber si un elemento que recibo por parámetro existe o no dentro de un array",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "PROPIEDADES",
+    "clue": "Es posible usar dos formas (corchetes ó paréntesis) para acceder a las ... de un objeto",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "ABSTRACCIÓN",
+    "clue": "Para ahorrar tiempo de desarrollo y claridad de escritura necesitamos utilizar un mayor nivel de...",
+    "score": 300,
+    "lang": "(ESPAÑOL)"
+  },
+
+  {
+    "name": "MATH",
+    "clue": "Este objeto contiene una serie de métodos que nos permiten realizar operaciones matemáticas complejas",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  },
+
+  {
+    "name": "STORAGE",
+    "clue": "Permite almacenar datos de manera local en el navegador sin necesidad de realizar ninguna conexión con el servidor",
+    "score": 300,
+    "lang": "(INGLÉS)"
+  }
+]
