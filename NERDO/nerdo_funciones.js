@@ -14,7 +14,6 @@ async function loadRiddlesHard() {
   let riddlesJSON = await promise.json();
   return riddlesJSON;
 }
-
 const changeBtnColorEasy = () => {
   btnEasy.classList.add("selectedLevel");
   btnMedium.classList.remove("selectedLevel");

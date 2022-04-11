@@ -50,6 +50,7 @@ btnEasy.onclick = () => {
   changeBtnColorEasy();
   adviceOfInputs();
 };
+
 btnMedium.onclick = () => {
   loadRiddlesMedium().then((data) => {
     riddlesArray = data;
@@ -58,6 +59,7 @@ btnMedium.onclick = () => {
   changeBtnColorMedium();
   adviceOfInputs();
 };
+
 btnHard.onclick = () => {
   loadRiddlesHard().then((data) => {
     riddlesArray = data;
