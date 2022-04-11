@@ -245,7 +245,7 @@ const playerLoose = () => {
 };
 const applyPenalty = () => {
   interval = setInterval(() => {
-    if (actualScore > 0) {
+    if (actualScore > 0 && !playerWins()) {
       actualScore -= penalty;
       gameScore.innerHTML = `PUNTAJE ACTUAL: ${actualScore}`;
       Toastify({

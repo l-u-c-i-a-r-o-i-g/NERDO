@@ -114,8 +114,5 @@ btnSkipRiddle.onclick = () => {
     shuffle(indexArray);
     hideRandomWord(pickRandomWord(riddlesArray));
     showClueScoreAttemptsBtns();
-    if (guessedArray.length >= 1) {
-      applyPenalty();
-    }
   }
 };
