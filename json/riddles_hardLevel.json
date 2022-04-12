@@ -50,7 +50,7 @@
 
   {
     "name": "LENGTH",
-    "clue": "Propiedad length nos sirve para obtener la longitud de un Array",
+    "clue": "Propiedad que nos sirve para obtener la longitud de un Array",
     "score": 300,
     "lang": "(INGLÉS)"
   },
