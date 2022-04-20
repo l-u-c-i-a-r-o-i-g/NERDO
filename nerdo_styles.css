@@ -45,7 +45,11 @@ body {
   border-radius: 0.5rem;
   line-height: 2rem;
 }
-
+.letterInput,
+.attempts,
+.wrongLetters {
+  font-size: small;
+}
 .divMusicScore,
 .divBtnRestart {
   display: flex;
