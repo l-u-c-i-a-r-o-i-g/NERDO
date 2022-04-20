@@ -189,7 +189,7 @@ const checkLetterReplaceHyphen = (letter) => {
 };
 const showClueAndHiddenWord = () => {
   clueOnHtml.innerHTML = `
-  <marquee width="100" scrollamount="100">${randomWord.lang}</marquee>\n<p>${randomWord.clue}<br>${randomWordHidden}</p>`;
+  <marquee width="100" scrollamount="6">${randomWord.lang}</marquee>\n<p>${randomWord.clue}<br>${randomWordHidden}</p>`;
 };
 const addScore = (guessedWordScore) => {
   actualScore += guessedWordScore;
