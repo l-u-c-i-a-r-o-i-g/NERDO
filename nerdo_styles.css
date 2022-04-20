@@ -70,9 +70,15 @@ body {
 }
 
 .btnLevel,
-.btnRestart,
 .btnStartGame {
   font-size: x-small;
+  width: auto;
+  border-radius: 0.5rem;
+  border: transparent;
+  padding: 0.4rem;
+}
+.btnRestart {
+  font-size: medium;
   width: auto;
   border-radius: 0.5rem;
   border: transparent;
@@ -213,12 +219,18 @@ input {
     margin: 0.5rem;
   }
   .btnLevel,
-  .btnRestart,
   .btnStartGame {
     font-size: x-small;
     width: auto;
     border-radius: 0.5rem;
     border: transparent;
+  }
+  .btnRestart {
+    font-size: medium;
+    width: auto;
+    border-radius: 0.5rem;
+    border: transparent;
+    padding: 0.4rem;
   }
   .selectedLevel {
     background-color: black;
