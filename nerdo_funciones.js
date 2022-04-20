@@ -39,7 +39,7 @@ const changeBtnColorHard = () => {
   btnHard.disabled = true;
 };
 const adviceOfInputs = () => {
-  explanation.innerText = `⚠ TENER EN CUENTA ⚠\n>>>USAMOS ESPANGLISH... ALGUNAS PALABRAS ESTÁN EN INGLÉS(ING) Y OTRAS EN ESPAÑOL(ESP)\n>>> LOS ACENTOS DEBERÁS INGRESARLOS CUANDO SEA NECESARIO\n>>>TENES 15 SEGUNDOS PARA ADIVINAR, SI TARDAS MÁS SE TE DESCUENTAN 50 PUNTOS x_x\n>>>SI ELEGIS PASAR A OTRA PALABRA SE TE DESCUENTAN 50 PUNTOS x_x`;
+  explanation.innerText = `⚠ TENER EN CUENTA ⚠\n>>>ALGUNAS PALABRAS ESTÁN EN INGLÉS Y OTRAS EN ESPAÑOL\n>>> LOS ACENTOS DEBERÁS INGRESARLOS CUANDO SEA NECESARIO\n>>>TENES 15 SEGUNDOS PARA ADIVINAR, SI TARDAS MÁS SE TE DESCUENTAN 50 PUNTOS x_x\n>>>SI ELEGIS PASAR A OTRA PALABRA SE TE DESCUENTAN 50 PUNTOS x_x`;
 };
 musicOnOff.onclick = () => {
   if (volumeOff.classList.contains("d-none")) {
@@ -167,8 +167,9 @@ const showClueScoreAttemptsBtns = () => {
   wrongLettersOnHtml.classList.remove("d-none");
   wrongLettersOnHtml.innerHTML = ``;
   btnStartGame.innerText = `SIGUIENTE PALABRA`;
-  clueOnHtml.innerText = `${randomWord.lang}\n${randomWord.clue}\n${randomWordHidden}`;
-  divLetterInput.innerHTML = `<input class="text-center p-2" type="text" name="letterInput" id="letterInput" placeholder ="INGRESA UNA LETRA" maxlength="1" autofocus>`;
+  clueOnHtml.innerHTML = `
+  <marquee width="100" scrollamount="6">${randomWord.lang}</marquee>\n<p>${randomWord.clue}<br>${randomWordHidden}</p>`;
+  divLetterInput.innerHTML = `<input class="letterInput text-center p-2" type="text" name="letterInput" id="letterInput" placeholder ="INGRESA UNA LETRA" maxlength="1" autofocus>`;
 };
 const enteredLetterToUpperCase = () => {
   enteredLetter = document.getElementById("letterInput").value.toUpperCase();
@@ -187,7 +188,8 @@ const checkLetterReplaceHyphen = (letter) => {
   return randomWordHidden;
 };
 const showClueAndHiddenWord = () => {
-  clueOnHtml.innerText = `${randomWord.lang}\n${randomWord.clue}\n${randomWordHidden}`;
+  clueOnHtml.innerHTML = `
+  <marquee width="100" scrollamount="100">${randomWord.lang}</marquee>\n<p>${randomWord.clue}<br>${randomWordHidden}</p>`;
 };
 const addScore = (guessedWordScore) => {
   actualScore += guessedWordScore;
@@ -236,7 +238,7 @@ const playerFails = () => {
   }
 };
 const playerLoose = () => {
-  clueOnHtml.innerText = "PERDISTE X_X";
+  clueOnHtml.innerText = "PERDISTE \n X_X";
   btnStartGame.innerText = `JUGAR DE NUEVO`;
   divLetterInput.classList.add("d-none");
   actualScore = 0;
